@@ -1,0 +1,2 @@
+FX3U.Order.A_Count-1
+FX3U.Order.B_Count-2

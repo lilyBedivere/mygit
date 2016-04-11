@@ -1,0 +1,12 @@
+FX3U.Material.A1_Full-1
+FX3U.Material.A2_Full-2
+FX3U.Material.B2_Full-3
+FX3U.Material.B1_Full-4
+FX3U.Material.A1_Empty-5
+FX3U.Material.A2_Empty-6
+FX3U.Material.B2_Empty-7
+FX3U.Material.B1_Empty-8
+FX3U.Material.A1_Count-9
+FX3U.Material.A2_Count-10
+FX3U.Material.B2_Count-11
+FX3U.Material.B1_Count-12

@@ -1,0 +1,11 @@
+FX3U.Storage.Send_To_A_OK_Ban-1
+FX3U.Storage.Send_To_B_OK_Ban-2
+FX3U.Storage.Send_To_A_NotOK_Ban-3
+FX3U.Storage.Send_To_B_NotOK_Ban-4
+FX3U.Storage.A_OK_Reset-5
+FX3U.Storage.B_OK_Reset-6
+FX3U.Storage.A_NotOK_Reset-7
+FX3U.Storage.B_NotOK_Reset-8
+FX3U.Storage.Allow_Robot_To_Get-9
+FX3U.Storage.Send_To_Position-10
+FX3U.Storage.Get_From_Position-11

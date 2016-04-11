@@ -1,0 +1,13 @@
+FX3U.RFID.Start_RFID_Vision-1
+FX3U.RFID.Vision_Checked_A1-2
+FX3U.RFID.Vision_Checked_A2-3
+FX3U.RFID.Vision_Checked_B2-4
+FX3U.RFID.Vision_Checked_B1-5
+FX3U.RFID.RFID_Write_A1-6
+FX3U.RFID.RFID_Write_A2-7
+FX3U.RFID.RFID_Write_B2-8
+FX3U.RFID.RFID_Write_B1-9
+FX3U.RFID.Robot_Send_To_A1_Material-10
+FX3U.RFID.Robot_Send_To_A2_Material-11
+FX3U.RFID.Robot_Send_To_B2_Material-12
+FX3U.RFID.Robot_Send_To_B1_Material-13

@@ -1,0 +1,12 @@
+FX3U.Material_Cylinder.A1_MC_In-1
+FX3U.Material_Cylinder.A2_MC_In-2
+FX3U.Material_Cylinder.B2_MC_In-3
+FX3U.Material_Cylinder.B1_MC_In-4
+FX3U.Material_Cylinder.A1_MC_Out-5
+FX3U.Material_Cylinder.A2_MC_Out-6
+FX3U.Material_Cylinder.B2_MC_Out-7
+FX3U.Material_Cylinder.B1_MC_Out-8
+FX3U.Material_Cylinder.A1_Action-9
+FX3U.Material_Cylinder.A2_Action-10
+FX3U.Material_Cylinder.B2_Action-11
+FX3U.Material_Cylinder.B1_Action-12

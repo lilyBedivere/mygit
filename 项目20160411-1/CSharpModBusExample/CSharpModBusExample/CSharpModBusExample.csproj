@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4BC6D7E-4481-4AA0-B2C1-D65D61524905}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharpModBusExample</RootNamespace>
+    <AssemblyName>CSharpModBusExample</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Excel">
+      <HintPath>..\..\c#\winform\LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\51aspx_LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\图书管理系统(二)\obj\Debug\Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core">
+      <HintPath>..\..\c#\winform\LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\51aspx_LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\图书管理系统(二)\obj\Debug\Interop.Microsoft.Office.Core.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Interop.Excel">
+      <HintPath>..\..\c#\winform\LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\51aspx_LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\图书管理系统(二)\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Office">
+      <HintPath>..\..\c#\winform\LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\51aspx_LibrarySysfadeb59a-f0e6-498d-a985-e9b82ef31780\图书管理系统(二)\obj\Debug\Interop.Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="CommonClass.cs" />
+    <Compile Include="CPublic.cs" />
+    <Compile Include="DAModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAModule.designer.cs">
+      <DependentUpon>DAModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCEntity.cs" />
+    <Compile Include="order_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="order_info.Designer.cs">
+      <DependentUpon>order_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="history.Designer.cs">
+      <DependentUpon>history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="message.Designer.cs">
+      <DependentUpon>message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="message1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="message1.Designer.cs">
+      <DependentUpon>message1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyClass.cs" />
+    <Compile Include="order_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="order_new.Designer.cs">
+      <DependentUpon>order_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILog.cs" />
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModBusSerialPortWrapper.cs" />
+    <Compile Include="ModBusTCPIPWrapper.cs" />
+    <Compile Include="ModBusWrapper.cs" />
+    <Compile Include="or_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="or_new.Designer.cs">
+      <DependentUpon>or_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page.Designer.cs">
+      <DependentUpon>page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLCDAHelper.cs" />
+    <Compile Include="process.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="process.Designer.cs">
+      <DependentUpon>process.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="pro_order\ordermanager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pro_order\ordermanager.Designer.cs">
+      <DependentUpon>ordermanager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pro_order\Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pro_order\Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pro_order\resource.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pro_order\resource.Designer.cs">
+      <DependentUpon>resource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pro_order\rfid_scence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pro_order\rfid_scence.Designer.cs">
+      <DependentUpon>rfid_scence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pro_order\warehose_mang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pro_order\warehose_mang.Designer.cs">
+      <DependentUpon>warehose_mang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="robot_testDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>robot_testDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="robot_testDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>robot_testDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SocketWrapper.cs" />
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValueHelper.cs" />
+    <EmbeddedResource Include="DAModule.resx">
+      <DependentUpon>DAModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="order_info.resx">
+      <DependentUpon>order_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="history.resx">
+      <DependentUpon>history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="message.resx">
+      <DependentUpon>message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="message1.resx">
+      <DependentUpon>message1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="order_new.resx">
+      <DependentUpon>order_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="or_new.resx">
+      <DependentUpon>or_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page.resx">
+      <DependentUpon>page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="process.resx">
+      <DependentUpon>process.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_order\ordermanager.resx">
+      <DependentUpon>ordermanager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_order\Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_order\resource.resx">
+      <DependentUpon>resource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_order\rfid_scence.resx">
+      <DependentUpon>rfid_scence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_order\warehose_mang.resx">
+      <DependentUpon>warehose_mang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet11.xsc">
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet11.xss">
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="robot_testDataSet1.xsc">
+      <DependentUpon>robot_testDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="robot_testDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>robot_testDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="robot_testDataSet1.xss">
+      <DependentUpon>robot_testDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="robot_testDataSet2.xsc">
+      <DependentUpon>robot_testDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="robot_testDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>robot_testDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="robot_testDataSet2.xss">
+      <DependentUpon>robot_testDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="css\superfish.css" />
+    <Content Include="image\cquptlog.jpg" />
+    <Content Include="image\slider-next.png" />
+    <Content Include="image\slider-prev.png" />
+    <Content Include="image\Tab.gif" />
+    <Content Include="image\tblue.jpg" />
+    <Content Include="image\top.png" />
+    <Content Include="image\twhite.jpg" />
+    <Content Include="image\T完成.jpg" />
+    <Content Include="image\T等待.jpg" />
+    <Content Include="image\T运行中.gif" />
+    <Content Include="image\下一步.jpg" />
+    <None Include="Resources\2格.png" />
+    <None Include="Resources\3格.png" />
+    <None Include="Resources\4格.png" />
+    <None Include="Resources\5格.png" />
+    <None Include="Resources\6格.png" />
+    <None Include="Resources\7格.png" />
+    <None Include="Resources\8格.png" />
+    <None Include="Resources\1格.png" />
+    <Content Include="Resources\满.png" />
+    <None Include="Resources\空.png" />
+    <None Include="Resources\正常1.png" />
+    <None Include="Resources\正常.png" />
+    <None Include="Resources\刷新.jpg" />
+    <None Include="Resources\华数.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\exit1.png" />
+    <None Include="Resources\oe_notes.gif" />
+    <None Include="Resources\oe_notes.png" />
+    <None Include="Resources\QQ图片20160323200702.png" />
+    <None Include="Resources\ziliao.png" />
+    <None Include="Resources\T等待.jpg" />
+    <None Include="Resources\T完成.jpg" />
+    <None Include="Resources\T运行中.gif" />
+    <None Include="Resources\异常.png" />
+    <Content Include="Resources\朝上按钮 .png" />
+    <None Include="Resources\manager.png" />
+    <None Include="Resources\朝下按钮.png" />
+    <None Include="Resources\朝上按钮.png" />
+    <None Include="Resources\流程2.png" />
+    <None Include="Resources\流程1.png" />
+    <None Include="Resources\流程.png" />
+    <None Include="Resources\首页.png" />
+    <None Include="Resources\top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="OPCAutomation">
+      <Guid>{F8582D24-88FB-11D0-B850-00C0F0104305}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

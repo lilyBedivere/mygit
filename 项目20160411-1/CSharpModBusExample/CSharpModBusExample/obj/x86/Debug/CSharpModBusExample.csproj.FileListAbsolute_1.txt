@@ -1,0 +1,10 @@
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\obj\x86\Debug\CSharpModBusExample.Properties.Resources.resources
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\obj\x86\Debug\CSharpModBusExample.TestModBus.resources
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\bin\Debug\CSharpModBusExample.exe.config
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\bin\Debug\CSharpModBusExample.exe
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\bin\Debug\CSharpModBusExample.pdb
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\obj\x86\Debug\CSharpModBusExample.exe
+D:\06.[器]\CCLR\CSharpModBusExample\CSharpModBusExample\obj\x86\Debug\CSharpModBusExample.pdb

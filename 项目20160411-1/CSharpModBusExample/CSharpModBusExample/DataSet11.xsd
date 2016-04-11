@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet11.xsd" xmlns:mstns="http://tempuri.org/DataSet11.xsd" xmlns="http://tempuri.org/DataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ordernew_info" msprop:Generator_TableClassName="ordernew_infoDataTable" msprop:Generator_TableVarName="tableordernew_info" msprop:Generator_TablePropName="ordernew_info" msprop:Generator_RowDeletingName="ordernew_infoRowDeleting" msprop:Generator_RowChangingName="ordernew_infoRowChanging" msprop:Generator_RowEvHandlerName="ordernew_infoRowChangeEventHandler" msprop:Generator_RowDeletedName="ordernew_infoRowDeleted" msprop:Generator_UserTableName="ordernew_info" msprop:Generator_RowChangedName="ordernew_infoRowChanged" msprop:Generator_RowEvArgName="ordernew_infoRowChangeEvent" msprop:Generator_RowClassName="ordernew_infoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="订单号" msprop:Generator_ColumnVarNameInTable="column订单号" msprop:Generator_ColumnPropNameInRow="订单号" msprop:Generator_ColumnPropNameInTable="订单号Column" msprop:Generator_UserColumnName="订单号" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="产品种类1" msprop:Generator_ColumnVarNameInTable="column产品种类1" msprop:Generator_ColumnPropNameInRow="产品种类1" msprop:Generator_ColumnPropNameInTable="产品种类1Column" msprop:Generator_UserColumnName="产品种类1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="产品种类1数量" msprop:Generator_ColumnVarNameInTable="column产品种类1数量" msprop:Generator_ColumnPropNameInRow="产品种类1数量" msprop:Generator_ColumnPropNameInTable="产品种类1数量Column" msprop:Generator_UserColumnName="产品种类1数量" type="xs:int" minOccurs="0" />
+              <xs:element name="产品种类2" msprop:Generator_ColumnVarNameInTable="column产品种类2" msprop:Generator_ColumnPropNameInRow="产品种类2" msprop:Generator_ColumnPropNameInTable="产品种类2Column" msprop:Generator_UserColumnName="产品种类2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="产品种类2数量" msprop:Generator_ColumnVarNameInTable="column产品种类2数量" msprop:Generator_ColumnPropNameInRow="产品种类2数量" msprop:Generator_ColumnPropNameInTable="产品种类2数量Column" msprop:Generator_UserColumnName="产品种类2数量" type="xs:int" minOccurs="0" />
+              <xs:element name="创建时间" msprop:Generator_ColumnVarNameInTable="column创建时间" msprop:Generator_ColumnPropNameInRow="创建时间" msprop:Generator_ColumnPropNameInTable="创建时间Column" msprop:Generator_UserColumnName="创建时间" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="计划产出数量" msprop:Generator_ColumnVarNameInTable="column计划产出数量" msprop:Generator_ColumnPropNameInRow="计划产出数量" msprop:Generator_ColumnPropNameInTable="计划产出数量Column" msprop:Generator_UserColumnName="计划产出数量" type="xs:int" minOccurs="0" />
+              <xs:element name="是否发布" msprop:Generator_ColumnVarNameInTable="column是否发布" msprop:Generator_ColumnPropNameInRow="是否发布" msprop:Generator_ColumnPropNameInTable="是否发布Column" msprop:Generator_UserColumnName="是否发布" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="计划开始时间" msprop:Generator_ColumnVarNameInTable="column计划开始时间" msprop:Generator_ColumnPropNameInRow="计划开始时间" msprop:Generator_ColumnPropNameInTable="计划开始时间Column" msprop:Generator_UserColumnName="计划开始时间" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="计划结束时间" msprop:Generator_ColumnVarNameInTable="column计划结束时间" msprop:Generator_ColumnPropNameInRow="计划结束时间" msprop:Generator_ColumnPropNameInTable="计划结束时间Column" msprop:Generator_UserColumnName="计划结束时间" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="完成批次" msprop:Generator_ColumnVarNameInTable="column完成批次" msprop:Generator_ColumnPropNameInRow="完成批次" msprop:Generator_ColumnPropNameInTable="完成批次Column" msprop:Generator_UserColumnName="完成批次" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="创建人员" msprop:Generator_ColumnVarNameInTable="column创建人员" msprop:Generator_ColumnPropNameInRow="创建人员" msprop:Generator_ColumnPropNameInTable="创建人员Column" msprop:Generator_UserColumnName="创建人员" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="序号" msprop:Generator_ColumnVarNameInTable="column序号" msprop:Generator_ColumnPropNameInRow="序号" msprop:Generator_ColumnPropNameInTable="序号Column" msprop:Generator_UserColumnName="序号" type="xs:int" minOccurs="0" />
+              <xs:element name="是否完成" msprop:Generator_ColumnVarNameInTable="column是否完成" msprop:Generator_ColumnPropNameInRow="是否完成" msprop:Generator_ColumnPropNameInTable="是否完成Column" msprop:Generator_UserColumnName="是否完成" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

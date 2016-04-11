@@ -1,0 +1,13 @@
+FX3U.Robot.MoveToStorageProgramEnd-1
+FX3U.Robot.MoveToAssemblePositionReady-2
+FX3U.Robot.ReadyToAssemble-3
+FX3U.Robot.AssembleA-4
+FX3U.Robot.AssembleAProgramEnd-5
+FX3U.Robot.AssembleB-6
+FX3U.Robot.AssembleBProgramEnd-7
+FX3U.Robot.MoveToStorageReady-8
+FX3U.Robot.MoveAToCheckPosition-9
+FX3U.Robot.MoveBToCheckPosition-10
+FX3U.Robot.MoveAToCheckPositionEnd-11
+FX3U.Robot.MoveBToCheckPositionEnd-12
+FX3U.Robot.SendToStorageReady-13

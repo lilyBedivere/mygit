@@ -1,0 +1,12 @@
+FX3U.Sorting.RFID_Check_A1-1
+FX3U.Sorting.A1_Sort_Cylinder_Out-2
+FX3U.Sorting.RFID_Check_A2-3
+FX3U.Sorting.A2_Sort_Cylinder_Out-4
+FX3U.Sorting.RFID_Check_B2-5
+FX3U.Sorting.B2_Sort_Cylinder_Out-6
+FX3U.Sorting.RFID_Check_B1-7
+FX3U.Sorting.B1_Sort_Cylinder_Out-8
+FX3U.Sorting.A1_Sort_Cylinder_Action-9
+FX3U.Sorting.A2_Sort_Cylinder_Action-10
+FX3U.Sorting.B2_Sort_Cylinder_Action-11
+FX3U.Sorting.B1_Sort_Cylinder_Action-12
